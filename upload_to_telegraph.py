@@ -19,7 +19,7 @@ telegraphbot = Client("TELEGRAPH",
                  bot_token=Config.BOT_TOKEN,
                  api_id=Config.API_ID,
                  api_hash=Config.API_HASH,
-                 parse_mode="markdown",
+                 parse_mode=ParseMode.MARKDOWN,
                  workers=100)
 
 
