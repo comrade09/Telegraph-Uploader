@@ -13,6 +13,7 @@ from config import Config
 from helpers import progress
 from telegraph import upload_file, Telegraph
 from pyrogram import Client, filters
+from pyrogram.enums import ParseMode
 
 
 telegraphbot = Client("TELEGRAPH",
